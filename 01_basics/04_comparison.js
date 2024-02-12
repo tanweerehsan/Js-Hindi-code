@@ -20,7 +20,7 @@
 
 // isme teeno ka answer same hoga false
 
-// null aur undefined ke conversion ko mostly tym avoid karna chahiye qk ye kch v ans provide . isme kch confirm nh h
+// null aur undefined ke conversion ko mostly tym avoid karna chahiye qk ye kch cnfrm ans provide nhi karta h.
 
 // === (strict equality)
 

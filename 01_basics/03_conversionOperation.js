@@ -1,20 +1,29 @@
 let score = "Tanweer"
 
+
 //console.log(typeof score);
 //console.log(typeof (score));
 
-let valueInNumber = Number(score)
-//console.log(typeof valueInNumber);
-//console.log(valueInNumber); (for checking what value gave me)
+// in 2 dffrnt tareekon se value ki type chck kr skte hai.
+
+let valueInNumber = Number(score);
+
+//console.log(typeof valueInNumber); // convert string ito number
+//console.log(valueInNumber); (for checking that what value i got)
+
 //  these are the results of which convert
+
 // "33" => 33
 // "33abc" => NaN
 // true => 1; false => 0;
 
-let isLoggedIn = ""
+let isLoggedIn = "";
+
 //let booleanIsLoggedIn = Boolean(isLoggedIn)
 //console.log(booleanIsLoggedIn);
+
 //  these are the also result
+
 // 1 => true; 0 => false;
 // "" => false
 //"Tanweer" => true
@@ -22,7 +31,8 @@ let isLoggedIn = ""
 let someNumber = 33
 
 let stringNumber = String (someNumber)
-//console.log(stringNumber);
+
+//console.log(stringNumber); // convert number into string
 //console.log(typeof stringNumber);
 
 

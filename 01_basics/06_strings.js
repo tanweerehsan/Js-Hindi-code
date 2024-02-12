@@ -15,31 +15,37 @@ console.log(gameName.length);
 
 console.log(gameName.toUpperCase());
 
-console.log(gameName.charAt(2)); 
+console.log(gameName.charAt(2));
+
 // kis position par character hai ussse check karne ke liye "charAt() ka use krte and alphabet kis position pr hai usse chck krne ke liye "indexOf()"" ka use krte ha.
+
 console.log(gameName.indexOf('n'));
 
 
-const newString = gameName.substring(0, 4)
+const newString = gameName.substring(0, 4);
+
 console.log(newString);
 
-// substring me negative value nhi de skte hai 
+// substring me negative value put nhi kr skte hai 
 
-const anotherString = gameName.slice(-8, 4)
+const anotherString = gameName.slice(-8, 4);
+
 console.log(anotherString);
 
 const newStringOne = "  tanweer   "
 console.log(newStringOne);
 console.log(newStringOne.trim());
 
-// mostly space ko use krne ke liye trim k use krte h
+// Spaces ko trim krne ke liye trim() k use krte h
 
-const url = "https//tanweerehsan.in/tanweer%20ehsan"
+const url = "https//tanweerehsan.in/tanweer%20ehsan";
+
 console.log(url.replace('%20', '-'));
 
 // kisi v word ko replace krne ke liye use karte hai
+
 console.log(url.includes('boy'));
 
-// kch qstn krne ke liye 'includes' k use krte h jo ans me true ya flse dnga
+// object values ko check krne ke liye 'includes' k use krte h agr object value hoga to true or nhi false return milenga
 
 console.log(gameName.split('-'));

@@ -1,4 +1,4 @@
-// premitive
+// Primitive or Non Reference
 
 // 7 types : String, Number, Boolean, Null, undefined, Bigint, Symbol
 
@@ -21,15 +21,15 @@ console.log(id == anotherId);
 
 //  Array, Objects, Function
 
-const heros = ["shaktiman", "naagraj","doga"]
+const heros = ["shaktiman", "naagraj","doga"];  // Array example
 let myObj= {
     name: "tanweer",
     age: 22,
-}
+} // Object example
 
 const myfunction = function (){
     console.log("Hello World");
-}
+} // Function example
 
 console.log(typeof bigNumber);
 
